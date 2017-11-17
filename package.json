@@ -1,0 +1,32 @@
+{
+  "name": "server-sign",
+  "version": "1.0.0",
+  "description": "Sign Service",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/guyuezhai/myCode.git"
+  },
+  "keywords": [
+    "Sign"
+  ],
+  "author": "guyuefei",
+  "license": "ISC",
+  "dependencies": {
+    "ali-mns": "^2.6.4",
+    "co-redis": "^2.1.1",
+    "crypto-js": "^3.1.9-1",
+    "gd-bmp": "^1.2.4",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.2.1",
+    "node-uuid": "^1.4.8",
+    "pg": "^7.1.2",
+    "redis": "^2.8.0",
+    "request": "^2.81.0"
+  }
+}
