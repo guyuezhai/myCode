@@ -23,5 +23,5 @@ app.use( sign.routes(), sign.allowedMethods() );
 let port = config.port;
 
 app.listen(port,function(){
-    console.log('GeoHey Sign Service is running on port ' + port);
+    console.log('Service is running on port ' + port);
 });
